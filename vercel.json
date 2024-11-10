@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+      { "source": "/", "destination": "/html/homepage/index.html" },
+      { "source": "/about", "destination": "/html/about/index.html" },
+      { "source": "/products", "destination": "/html/products/index.html" },
+      { "source": "/contact_us", "destination": "/html/contact_us/index.html" }
+    ],
+    "$schema": {
+      "build": "echo 'Build step for Vercel'"
+    }
+  }
+  
