@@ -1,9 +1,8 @@
 {
     "rewrites": [
-      { "source": "/", "destination": "/html/homepage/index.html" },
-      { "source": "/about", "destination": "/html/about/index.html" },
-      { "source": "/products", "destination": "/html/products/index.html" },
-      { "source": "/contact_us", "destination": "/html/contact_us/index.html" }
+      { "source": "/", "destination": "https://your-project-name.vercel.app/" },
+      { "source": "/about", "destination": "https://your-project-name.vercel.app/about" },
+      { "source": "/products", "destination": "https://your-project-name.vercel.app/products" },
+      { "source": "/contact_us", "destination": "https://your-project-name.vercel.app/contact" }
     ]
   }
-  
